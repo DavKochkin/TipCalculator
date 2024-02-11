@@ -31,6 +31,8 @@
 		04CB0A4B2B77F04F0098B259 /* LabelFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */; };
 		04CB0A4D2B78CAF60098B259 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */; };
 		04CB0A4F2B78D3700098B259 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4E2B78D3700098B259 /* AmountView.swift */; };
+		04CB0A522B78E4060098B259 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A512B78E4060098B259 /* Tip.swift */; };
+		04CB0A542B78E4310098B259 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A532B78E4310098B259 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactor.swift; sourceTree = "<group>"; };
 		04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		04CB0A4E2B78D3700098B259 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		04CB0A512B78E4060098B259 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		04CB0A532B78E4310098B259 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		04CB09F72B7792650098B259 /* tipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				04CB0A502B78E3FE0098B259 /* Model */,
 				04CB0A492B77F03F0098B259 /* Factory */,
 				04CB0A462B77D0660098B259 /* Extension */,
 				04CB0A412B77D0300098B259 /* Config */,
@@ -177,6 +182,7 @@
 				04CB0A3B2B77A8280098B259 /* BillInputView.swift */,
 				04CB0A3D2B77A83D0098B259 /* TipInputView.swift */,
 				04CB0A3F2B77A85D0098B259 /* SplitInputView.swift */,
+				04CB0A532B78E4310098B259 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +211,14 @@
 				04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		04CB0A502B78E3FE0098B259 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CB0A512B78E4060098B259 /* Tip.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +379,10 @@
 				04CB0A452B77D03F0098B259 /* ThemeFont.swift in Sources */,
 				04CB0A4D2B78CAF60098B259 /* UIView+Ext.swift in Sources */,
 				04CB09FB2B7792650098B259 /* SceneDelegate.swift in Sources */,
+				04CB0A522B78E4060098B259 /* Tip.swift in Sources */,
 				04CB0A402B77A85D0098B259 /* SplitInputView.swift in Sources */,
 				04CB0A3E2B77A83D0098B259 /* TipInputView.swift in Sources */,
+				04CB0A542B78E4310098B259 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
