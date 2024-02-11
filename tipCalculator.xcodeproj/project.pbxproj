@@ -30,6 +30,7 @@
 		04CB0A482B77D0750098B259 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A472B77D0750098B259 /* UIColor+Ext.swift */; };
 		04CB0A4B2B77F04F0098B259 /* LabelFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */; };
 		04CB0A4D2B78CAF60098B259 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */; };
+		04CB0A4F2B78D3700098B259 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4E2B78D3700098B259 /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		04CB0A472B77D0750098B259 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactor.swift; sourceTree = "<group>"; };
 		04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		04CB0A4E2B78D3700098B259 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			children = (
 				04CB0A372B77A7660098B259 /* LogoView.swift */,
 				04CB0A392B77A8150098B259 /* ResultView.swift */,
+				04CB0A4E2B78D3700098B259 /* AmountView.swift */,
 				04CB0A3B2B77A8280098B259 /* BillInputView.swift */,
 				04CB0A3D2B77A83D0098B259 /* TipInputView.swift */,
 				04CB0A3F2B77A85D0098B259 /* SplitInputView.swift */,
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CB0A4F2B78D3700098B259 /* AmountView.swift in Sources */,
 				04CB09FD2B7792650098B259 /* CalculatorVC.swift in Sources */,
 				04CB0A382B77A7660098B259 /* LogoView.swift in Sources */,
 				04CB0A432B77D0370098B259 /* ThemeColor.swift in Sources */,
