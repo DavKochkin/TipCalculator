@@ -29,6 +29,7 @@
 		04CB0A452B77D03F0098B259 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A442B77D03F0098B259 /* ThemeFont.swift */; };
 		04CB0A482B77D0750098B259 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A472B77D0750098B259 /* UIColor+Ext.swift */; };
 		04CB0A4B2B77F04F0098B259 /* LabelFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */; };
+		04CB0A4D2B78CAF60098B259 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		04CB0A442B77D03F0098B259 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		04CB0A472B77D0750098B259 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		04CB0A4A2B77F04F0098B259 /* LabelFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactor.swift; sourceTree = "<group>"; };
+		04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				04CB0A472B77D0750098B259 /* UIColor+Ext.swift */,
+				04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				04CB09F92B7792650098B259 /* AppDelegate.swift in Sources */,
 				04CB0A4B2B77F04F0098B259 /* LabelFactor.swift in Sources */,
 				04CB0A452B77D03F0098B259 /* ThemeFont.swift in Sources */,
+				04CB0A4D2B78CAF60098B259 /* UIView+Ext.swift in Sources */,
 				04CB09FB2B7792650098B259 /* SceneDelegate.swift in Sources */,
 				04CB0A402B77A85D0098B259 /* SplitInputView.swift in Sources */,
 				04CB0A3E2B77A83D0098B259 /* TipInputView.swift in Sources */,
