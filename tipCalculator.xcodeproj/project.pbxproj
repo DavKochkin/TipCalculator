@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0486FB152B7A2238005B2CFA /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB142B7A2238005B2CFA /* CalculatorVM.swift */; };
 		0486FB172B7A23B5005B2CFA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB162B7A23B5005B2CFA /* Result.swift */; };
+		0486FB192B7A2751005B2CFA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB182B7A2751005B2CFA /* String+Ext.swift */; };
 		04CB09F92B7792650098B259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09F82B7792650098B259 /* AppDelegate.swift */; };
 		04CB09FB2B7792650098B259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09FA2B7792650098B259 /* SceneDelegate.swift */; };
 		04CB09FD2B7792650098B259 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09FC2B7792650098B259 /* CalculatorVC.swift */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		0486FB142B7A2238005B2CFA /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 		0486FB162B7A23B5005B2CFA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0486FB182B7A2751005B2CFA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		04CB09F52B7792650098B259 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB09F82B7792650098B259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CB09FA2B7792650098B259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			children = (
 				04CB0A472B77D0750098B259 /* UIColor+Ext.swift */,
 				04CB0A4C2B78CAF60098B259 /* UIView+Ext.swift */,
+				0486FB182B7A2751005B2CFA /* String+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				0486FB152B7A2238005B2CFA /* CalculatorVM.swift in Sources */,
 				04CB0A4F2B78D3700098B259 /* AmountView.swift in Sources */,
 				04CB09FD2B7792650098B259 /* CalculatorVC.swift in Sources */,
+				0486FB192B7A2751005B2CFA /* String+Ext.swift in Sources */,
 				04CB0A382B77A7660098B259 /* LogoView.swift in Sources */,
 				04CB0A432B77D0370098B259 /* ThemeColor.swift in Sources */,
 				04CB0A3C2B77A8280098B259 /* BillInputView.swift in Sources */,
