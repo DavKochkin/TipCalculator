@@ -13,6 +13,8 @@
 		0486FB1B2B7A320F005B2CFA /* UIResponder+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB1A2B7A320F005B2CFA /* UIResponder+Ext.swift */; };
 		0486FB1D2B7A3849005B2CFA /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB1C2B7A3849005B2CFA /* Int+Ext.swift */; };
 		0486FB1F2B7B6F4E005B2CFA /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB1E2B7B6F4E005B2CFA /* Double+Ext.swift */; };
+		0486FB222B7CAD3A005B2CFA /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0486FB212B7CAD3A005B2CFA /* click.m4a */; };
+		0486FB252B7CAD61005B2CFA /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FB242B7CAD61005B2CFA /* AudioPlayerService.swift */; };
 		04CB09F92B7792650098B259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09F82B7792650098B259 /* AppDelegate.swift */; };
 		04CB09FB2B7792650098B259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09FA2B7792650098B259 /* SceneDelegate.swift */; };
 		04CB09FD2B7792650098B259 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB09FC2B7792650098B259 /* CalculatorVC.swift */; };
@@ -65,6 +67,8 @@
 		0486FB1A2B7A320F005B2CFA /* UIResponder+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Ext.swift"; sourceTree = "<group>"; };
 		0486FB1C2B7A3849005B2CFA /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
 		0486FB1E2B7B6F4E005B2CFA /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+		0486FB212B7CAD3A005B2CFA /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		0486FB242B7CAD61005B2CFA /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		04CB09F52B7792650098B259 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB09F82B7792650098B259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CB09FA2B7792650098B259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0486FB202B7CAD22005B2CFA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0486FB212B7CAD3A005B2CFA /* click.m4a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0486FB232B7CAD54005B2CFA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0486FB242B7CAD61005B2CFA /* AudioPlayerService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		04CB09EC2B7792650098B259 = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +174,8 @@
 		04CB09F72B7792650098B259 /* tipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				0486FB232B7CAD54005B2CFA /* Service */,
+				0486FB202B7CAD22005B2CFA /* Resource */,
 				0486FB132B7A222E005B2CFA /* ViewModel */,
 				04CB0A502B78E3FE0098B259 /* Model */,
 				04CB0A492B77F03F0098B259 /* Factory */,
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0486FB222B7CAD3A005B2CFA /* click.m4a in Resources */,
 				04CB0A052B7792660098B259 /* LaunchScreen.storyboard in Resources */,
 				04CB0A022B7792660098B259 /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				04CB0A3C2B77A8280098B259 /* BillInputView.swift in Sources */,
 				04CB0A482B77D0750098B259 /* UIColor+Ext.swift in Sources */,
 				04CB0A3A2B77A8150098B259 /* ResultView.swift in Sources */,
+				0486FB252B7CAD61005B2CFA /* AudioPlayerService.swift in Sources */,
 				04CB09F92B7792650098B259 /* AppDelegate.swift in Sources */,
 				04CB0A4B2B77F04F0098B259 /* LabelFactor.swift in Sources */,
 				04CB0A452B77D03F0098B259 /* ThemeFont.swift in Sources */,
