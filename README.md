@@ -14,4 +14,4 @@ A Simple Tip Calculator App.
 + Snapshot Test (preserve the integrity of views from unwarranted modification)
 
 
-![TipCalculator](https://github.com/DavKochkin/BankeyApp/assets/122441539/52960544-c8e4-472d-a355-72985f96f71f)
+<img width="300" alt="LoginView" src="https://github.com/DavKochkin/BankeyApp/assets/122441539/52960544-c8e4-472d-a355-72985f96f71f">
